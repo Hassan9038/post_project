@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif
+  }
+  body{
+	height:100%;
+	/*background-image:radial-gradient(circle farthest-corner at -3.1% -4.3%, #009688 0%,#cddc39 90%)
+  */}
+  .wrapper{
+	height: 100vh
+  }
+  .myColor{
+    background-image: linear-gradient(to right, #7a8f8d 10%, #03a9f4 120%);
+  }
+  .myShadow{
+	box-shadow: 0 -3px 5px #111
+  }
+  .myBtn{
+	font-weight: bold;
+	font-size: 20px;
+	background-image: linear-gradient(to right , #0acffe 0% , #495aff 100%);
+	border: none;
+	border-radius: 50px
+  }
+  .myBtn:hover{
+	background-image: linear-gradient(to right , #495aff 0% , #0acffe  100%);
+  }
+  .myHr{
+	height: 2px;
+	border-radius: 100px
+  }
+  .myLinkBtn{
+	border-radius: 100px;
+	width: 50%;
+	border: 1px solid #FFF
+  }
+  @media (max-width: 720px) {
+	.wrapper{
+	  margin: 2px
+	}
+  }
+  
+  .navbar, .dropdown-menu , .modal-header , .btn-block ,.card-post {
+	background-image: linear-gradient(to right , #ffc107d1 0% , #0acffe 100%);
+	
+  }
+  .navbar .dropdown-item:hover{
+	  color: #000 !important
+  }  
+  .navbar ul li a{
+	  color:  #FFF !important;
+	  font-weight :bold;
+	  font-size: 18px;
+  }
+
+ .my-ul li{
+	 width: 50%;
+	 list-style: none;
+	 margin-left: 10px;
+ }
+ .my-post-form{
+	 position: relative;
+ }
+ .my-emoji{
+	 position: absolute;
+	 right: 48px;
+     bottom: 14px;
+ }
+ .my-emoji i{
+	 margin: 2px;
+	 font-weight: bold;
+	 border: 1px solid #222;
+	 padding: 5px;
+	 border-radius: 50%;
+	 cursor: pointer
+ }

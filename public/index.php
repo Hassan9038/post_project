@@ -1,7 +1,5 @@
-<?php 
-include_once '../app/loader.php';
+<?php
+session_start();
+require_once "../private/core/autoload.php"; 
+$app = new App();
 
-$core = new Core();
-
-
-?>
